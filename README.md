@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- Add some cool Netflix-like banner or logo here -->
-  <img src="/assets/Dreeeems.png" alt="Dreeeems  Logo" width="300" height="150" />
+  <img src="/assets/Dreeeems.png" alt="Dreeeems  Logo" width="300" height="300" />
 </div>
 
 ## 🚀 Introduction
