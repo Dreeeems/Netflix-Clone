@@ -56,26 +56,26 @@ npm start
 
 ## 🛠️ Endpoints
 
-    GET /folder-contents
-    Get the contents of the video folder.
+  GET /folder-contents
+  Get the contents of the video folder.
 
-    GET /create/:name
-    Create a new user folder with the given name.
+  GET /create/:name
+  Create a new user folder with the given name.
 
-    GET /video/:folder
-    Get the details of videos within a specific folder.
+   GET /video/:folder
+   Get the details of videos within a specific folder.
 
-    GET /videos/:folder/:type/:name
-    Stream and serve the video with the specified folder, type, and name.
+   GET /videos/:folder/:type/:name
+  Stream and serve the video with the specified folder, type, and name.
 
 ## 🎥 Video Streaming
 
-    The server supports video streaming for .mp4 and .avi formats. It utilizes the fs module to read video files and streams them to clients using the appropriate Content-Type.
+  The server supports video streaming for .mp4 and .avi formats. It utilizes the fs module to read video files and streams them to clients using the appropriate Content-Type.
 
 ## 📝 Note
 
-    Please ensure that you have provided the correct path to the video folder in the .env file. Also, make sure to replace YOUR_TMDB_API_KEY with your actual TMDB API key to enable movie data retrieval.
+  Please ensure that you have provided the correct path to the video folder in the .env file. Also, make sure to replace YOUR_TMDB_API_KEY with your actual TMDB API key to enable movie data retrieval.
 
-    Feel free to explore and enhance the Netflix Clone Express Application - Server as per your requirements.
+   Feel free to explore and enhance the Netflix Clone Express Application - Server as per your requirements.
 
-    Happy coding! 🎉
+   Happy coding! 🎉
